@@ -10,6 +10,7 @@ static int __init hello_init(void)
 {
 	printk(KERN_ALERT "SUM IS : %d\n",my_add(a,b));
 		printk(KERN_ALERT "SUM IS : %d\n",my_add(a,b));
+	printk(KERN_ALERT "SUM IS : %d\n",my_add(a,b));
 
 	return 0;
 }
